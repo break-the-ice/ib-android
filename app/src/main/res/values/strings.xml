@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Icebreak</string>
+    <string name="login_facebook">Continue with Facebook</string>
+    <string name="facebook_app_id">140762449965912</string>
+    <string name="slogan">Connect with people near you</string>
+    <string name="fb_login_protocol_scheme">fb140762449965912</string>
+</resources>

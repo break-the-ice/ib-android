@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/logo80"
+    tools:context="com.jozews.icebreak.LoginActivity"
+    tools:layout_editor_absoluteX="0dp"
+    tools:layout_editor_absoluteY="81dp">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginRight="5dp"
+        app:layout_constraintBottom_toBottomOf="@+id/slogan_text"
+        app:layout_constraintRight_toLeftOf="@+id/slogan_text"
+        app:srcCompat="@drawable/logo_white"
+        tools:layout_constraintVertical_bias="0.5" />
+
+    <TextView
+        android:id="@+id/slogan_text"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="50dp"
+        android:text="@string/slogan"
+        android:textSize="22sp"
+        android:textAlignment="center"
+        android:textColor="@android:color/white"
+        android:singleLine="false"
+        app:layout_constraintBottom_toTopOf="@+id/facebook_button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/facebook_button"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:background="@drawable/facebook_button_bg"
+        android:drawableLeft="@drawable/facebook"
+        android:drawableTint="@color/com_facebook_blue"
+        android:paddingLeft="10dp"
+        android:text="@string/login_facebook"
+        android:textColor="@color/facebook"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</android.support.constraint.ConstraintLayout>
